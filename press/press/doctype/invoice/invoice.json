@@ -39,6 +39,7 @@
   "applied_credits",
   "free_credits",
   "amount_due",
+  "amount_due_with_tax",
   "amount_paid",
   "section_break_15",
   "credit_allocations",
@@ -430,6 +431,13 @@
    "fieldtype": "Currency",
    "label": "Total Before Tax",
    "options": "currency"
+  },
+  {
+   "fieldname": "amount_due_with_tax",
+   "fieldtype": "Currency",
+   "label": "Amount Due (Including Tax)",
+   "no_copy": 1,
+   "options": "currency"
   }
  ],
  "is_submittable": 1,
@@ -455,7 +463,7 @@
    "link_fieldname": "invoice"
   }
  ],
- "modified": "2024-03-12 15:24:29.792253",
+ "modified": "2024-06-05 19:29:21.544318",
  "modified_by": "Administrator",
  "module": "Press",
  "name": "Invoice",
